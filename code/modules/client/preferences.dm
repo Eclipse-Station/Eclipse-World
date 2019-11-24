@@ -44,6 +44,7 @@ datum/preferences
 	var/b_hair = 0						//Hair color
 	var/f_style = "Shaved"				//Face hair type
 	var/lip_style						//Lips/Makeup Style
+	var/lip_color						//Color of the makeup/lips
 	var/r_facial = 0					//Face hair color
 	var/g_facial = 0					//Face hair color
 	var/b_facial = 0					//Face hair color
@@ -102,7 +103,9 @@ datum/preferences
 
 	var/money_balance = 0
 	var/bank_pin
-	var/bank_no
+	var/bank_account
+
+	var/datum/expense/expenses = list()
 
 	//Keeps track of preferrence for not getting any wanted jobs
 	var/alternate_option = 1
@@ -133,6 +136,7 @@ datum/preferences
 	var/economic_status = "Working Class"
 
 	var/uplinklocation = "PDA"
+	var/email = null
 
 	// OOC Metadata:
 	var/metadata = ""
@@ -323,7 +327,6 @@ datum/preferences
 //	if(be_random_name)
 //		real_name = random_name(identifying_gender,species)
 
-	character.adjust_aging()
 
 	// Ask the preferences datums to apply their own settings to the new mob
 	player_setup.copy_to_mob(character)
