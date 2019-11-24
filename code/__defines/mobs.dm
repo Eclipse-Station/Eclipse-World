@@ -187,6 +187,8 @@
 #define O_EGG      "egg sac"
 #define O_RESIN    "resin spinner"
 #define O_ZOMBIE   "zombie vessel"
+#define O_VOICE    "voicebox"
+#define O_STANDARD list(O_EYES, O_HEART, O_LUNGS, O_BRAIN, O_LIVER, O_KIDNEYS, O_APPENDIX, O_VOICE)
 
 #define BP_L_FOOT "l_foot"
 #define BP_R_FOOT "r_foot"

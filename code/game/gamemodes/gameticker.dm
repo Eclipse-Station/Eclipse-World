@@ -303,7 +303,7 @@ var/global/datum/controller/gameticker/ticker
 					job_master.EquipRank(player, player.mind.assigned_role, 0)
 					UpdateFactionList(player)
 					equip_custom_items(player)
-					player.apply_traits()
+				//	player.apply_traits()
 		if(captainless)
 			for(var/mob/M in player_list)
 				if(!istype(M,/mob/new_player))
@@ -412,7 +412,7 @@ var/global/datum/controller/gameticker/ticker
 
 		//save politics related data
 		SSelections.save_data.save_candidates()
-		
+
 		//save news
 		news_data.save_main_news()
 
