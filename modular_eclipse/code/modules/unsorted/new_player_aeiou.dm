@@ -90,4 +90,4 @@ var/list/blacklist = list()
 
 	if(!check_rights(R_ADMIN)) return
 	load_aeiouwhitelist()
-	load_jobwhitelist()
+	load_hardwhitelist()

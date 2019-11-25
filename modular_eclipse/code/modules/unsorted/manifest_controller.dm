@@ -11,11 +11,11 @@ var/datum/manifest_controller/mnfst = new/datum/manifest_controller
 	log_and_message_admins("Manifest Updater loaded.")
 
 
-/datum/manifest_controller/proc/process()
+/datum/manifest_controller/process()
 	update_manifest()
 	load_aeiouwhitelist()
 	load_blacklist()
-	load_jobwhitelist()//Reloads whitelists, since we use the bot
+	load_hardwhitelist()
 	spawn(1 MINUTE) //We don't really need high-accuracy here.
 		process()
 
