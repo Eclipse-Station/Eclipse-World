@@ -306,14 +306,8 @@
 #define VIS_ADMIN3			17
 
 #define VIS_MESONS			18
-#define VIS_CH_STATUS_R		19
-#define VIS_CH_HEALTH_VR	20
-#define VIS_CH_BACKUP		21
-#define VIS_CH_VANTAG		22
 
-#define VIS_AUGMENTED		23
-
-#define VIS_COUNT			23 //Must be highest number from above.
+#define VIS_COUNT			18 //Must be highest number from above.
 
 //Some mob icon layering defines
 #define BODY_LAYER		-100
