@@ -126,6 +126,8 @@ var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","
 	else
 		send2adminirc("Request for Help from [key_name(src)]: [html_decode(original_msg)]")
 
+	send2adminchat(key_name(src), original_msg) //Eclipse addition
+
 	feedback_add_details("admin_verb","AH") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 	return
 

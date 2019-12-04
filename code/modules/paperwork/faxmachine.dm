@@ -213,3 +213,6 @@ var/list/adminfaxes = list()	//cache for faxes that have been sent to admins
 			cciaa_present++
 			if (C.is_afk())
 				cciaa_afk++
+
+	var/faxid = export_fax(sent)
+	message_chat_admins(sender, faxname, sent, faxid, font_colour)

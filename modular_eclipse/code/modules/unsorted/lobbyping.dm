@@ -23,3 +23,5 @@
 		log_and_message_admins("has sent a message in discord lobby")
 		lobby_message(message = msg, color = "#79FE5F")
 
+/hook/roundend/proc/notify_lobby()
+		lobby_message(message = "The round has ended. New round begins after the restart.", color = "#FE9500")
