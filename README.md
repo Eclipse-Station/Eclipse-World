@@ -1,6 +1,6 @@
 # The-World-Server-Redux
 
-[Forums](http://ss13worldserver.com/forums/index.php) - [Wiki](http://ss13worldserver.com/wiki/index.php?title=Main_Page) - [Discord](https://discord.gg/4KUpvnJ)
+[Our Website](https://www.eclipse-station.space) - [Wiki](http://www.eclipse-station.space//wiki//index.php?title=Main_Page) - [Discord](https://discordapp.com/invite/xuS4t9U)
 
 World Server is a fork of the Polaris code branch for the game Spacestation13.
 
@@ -22,7 +22,7 @@ All assets including icons and sound are under a [CC BY-SA 3.0](http://creativec
 ### GETTING THE CODE
 The simplest way to obtain the code is using the github .zip feature.
 
-Click [here](https://github.com/GeneriedJenelle/The-World-Server-Redux/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
+Click [here](https://github.com/Eclipse-Station/Eclipse-World/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
 
 The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
 
