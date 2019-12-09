@@ -572,4 +572,4 @@ var/datum/planet/sif/planet_sif = null
 	if(prob(15))//In case everyone just fucking goes underground and no carps spawn anywhere because of it
 		var/turf/R = pick(holder.our_planet.planet_floors)
 		if(R)
-			new /obj/effect/falling_effect/carpfall/carpnado(X)
+			new /obj/effect/falling_effect/carpfall/carpnado(R)

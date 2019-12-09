@@ -1,11 +1,11 @@
 /datum/event/carp_migration
 	announceWhen	= 50
-	endWhen 		= 800
+	endWhen 		= 600
 
 
 /datum/event/carp_migration/setup()
-	announceWhen = rand(20, 40)
-	endWhen = rand(450, 900)
+	announceWhen = rand(5, 25)
+	endWhen = rand(350, 700)
 
 /datum/event/carp_migration/announce()
 	var/announcement = ""

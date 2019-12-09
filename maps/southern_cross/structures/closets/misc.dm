@@ -34,7 +34,11 @@
 	..()
 	new /obj/item/weapon/gun/energy/phasegun(src)
 	new /obj/item/weapon/gun/energy/phasegun(src)
+	new /obj/item/weapon/gun/energy/phasegun(src)
+	new /obj/item/weapon/gun/energy/phasegun(src)
 	// One spare cell per gun
+	new /obj/item/weapon/cell/device/weapon(src)
+	new /obj/item/weapon/cell/device/weapon(src)
 	new /obj/item/weapon/cell/device/weapon(src)
 	new /obj/item/weapon/cell/device/weapon(src)
 

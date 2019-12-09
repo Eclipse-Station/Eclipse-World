@@ -28,5 +28,9 @@
 		/mob/living/carbon/human/proc/shapeshifter_select_hair_colors,
 		/mob/living/carbon/human/proc/shapeshifter_select_gender,
 		/mob/living/carbon/human/proc/regenerate,
+		/mob/living/carbon/human/proc/shapeshifter_select_wings, //VOREStation Add,
+		/mob/living/carbon/human/proc/shapeshifter_select_tail, //VOREStation Add,
+		/mob/living/carbon/human/proc/shapeshifter_select_ears, //VOREStation Add,
+		/mob/living/carbon/human/proc/turn_to_blob,
 		/mob/living/proc/set_size
 		)

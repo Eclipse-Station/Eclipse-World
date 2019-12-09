@@ -238,7 +238,7 @@
 	set desc = "Allows you to regrow limbs and heal organs after a period of rest."
 	set category = "Abilities"
 
-	if(nutrition < 250)
+	if(nutrition < 220)
 		to_chat(src, "<span class='warning'>You lack the biomass to begin regeneration!</span>")
 		return
 
@@ -251,7 +251,7 @@
 
 	var/delay_length = round(active_regen_delay * species.active_regen_mult)
 	if(do_after(src,delay_length))
-		nutrition -= 200
+		nutrition -= 170
 
 		for(var/obj/item/organ/I in internal_organs)
 			if(I.damage > 0)
@@ -273,14 +273,12 @@
 				var/obj/item/organ/O = new limb_path(src)
 				organ_data["descriptor"] = O.name
 				to_chat(src, "<span class='notice'>You feel a slithering sensation as your [O.name] reform.</span>")
-		update_icons_body()
+		regenerate_icons()
 		active_regen = FALSE
 	else
 		to_chat(src, "<span class='critical'>Your regeneration is interrupted!</span>")
-		nutrition -= 75
+		nutrition -= 25
 		active_regen = FALSE
-
-
 
 /mob/living/carbon/human/proc/tie_hair()
 	set name = "Tie Hair"

@@ -10,6 +10,8 @@
 	burn_mod = 1.25 //Insects and fire
 	economic_modifier = 5 //Wagecuckin' it
 
+	flash_mod = 2 //LAMP
+
 	color_mult = 1
 
 	tail = "tail" //Their wings are a tail because :v

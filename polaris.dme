@@ -2738,4 +2738,6 @@
 #include "modular_eclipse\code\modules\unsorted\lobbyping.dm"
 #include "modular_eclipse\code\modules\unsorted\manifest_controller.dm"
 #include "modular_eclipse\code\modules\unsorted\new_player_aeiou.dm"
+#include "modular_eclipse\mobs\say.dm"
+#include "modular_eclipse\mobs\prometheans_eclipse\bolb.dm"
 // END_INCLUDE
