@@ -38,6 +38,14 @@
 
 	meat_type = /obj/item/weapon/reagent_containers/food/snacks/carpmeat
 
+/mob/living/simple_animal/hostile/carp/weak
+	desc = "A ferocious, fang-bearing creature that resembles a fish. This one seems to be weakened by surface impact."
+	maxHealth = 15
+	health = 15
+	harm_intent_damage = 5
+	melee_damage_lower = 10
+	melee_damage_upper = 10
+
 /mob/living/simple_animal/hostile/carp/large
 	name = "elder carp"
 	desc = "An older, more matured carp. Few survive to this age due to their aggressiveness."
@@ -90,4 +98,3 @@
 		if(prob(15))
 			L.Weaken(3)
 			L.visible_message("<span class='danger'>\the [src] knocks down \the [L]!</span>")
-

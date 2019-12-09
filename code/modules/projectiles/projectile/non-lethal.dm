@@ -12,6 +12,7 @@
 	stutter = 8
 	accuracy = 95
 	agony = 5
+	SA_bonus_damage = 15
 	combustion = FALSE
 
 /obj/item/projectile/nonlethal/on_hit(var/atom/target, var/blocked = 0)

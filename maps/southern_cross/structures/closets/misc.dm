@@ -1,5 +1,5 @@
 //Gun Cabinets
-
+/*
 /obj/structure/closet/secure_closet/guncabinet/sidearm
 	name = "emergency weapon cabinet"
 	req_one_access = list(access_armory,access_captain)
@@ -25,10 +25,10 @@
 	new /obj/item/weapon/gun/projectile/shotgun/pump/rifle(src)
 	new /obj/item/weapon/gun/projectile/shotgun/pump/rifle(src)
 	return
-
+*/
 /obj/structure/closet/secure_closet/guncabinet/phase
 	name = "phase pistol cabinet"
-	req_one_access = list(access_explorer,access_brig)
+	req_one_access = list()
 
 /obj/structure/closet/secure_closet/guncabinet/phase/New()
 	..()
@@ -37,11 +37,9 @@
 	// One spare cell per gun
 	new /obj/item/weapon/cell/device/weapon(src)
 	new /obj/item/weapon/cell/device/weapon(src)
-	// One spare gun permit per locker
-	new /obj/item/clothing/accessory/permit/gun/planetside(src)
 
 //Explorer Lockers
-
+/*
 /obj/structure/closet/secure_closet/explorer
 	name = "explorer locker"
 	req_access = list(access_explorer)
@@ -160,3 +158,4 @@
 	new /obj/item/seeds/ambrosiavulgarisseed(src)
 	new /obj/item/seeds/libertymycelium(src)
 	new /obj/item/seeds/reishimycelium(src)
+*/
