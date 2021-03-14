@@ -128,6 +128,19 @@ var/forumsqlpass    = ""
 var/forum_activated_group     = "2"
 var/forum_authenticated_group = "10"
 
+// MySQL configuration
+var/sqladdress
+var/sqlport
+var/sqldb
+var/sqllogin
+var/sqlpass
+
+//What? SQL???
+var/sqlfdbklogin
+var/sqlfdbkpass
+var/sqlfdbkdb
+var/sqllogging
+
 // For FTP requests. (i.e. downloading runtime logs.)
 // However it'd be ok to use for accessing attack logs and such too, which are even laggier.
 var/fileaccess_timer = 0

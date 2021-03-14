@@ -109,7 +109,6 @@
 #include "code\_global_vars\bitfields.dm"
 #include "code\_global_vars\misc.dm"
 #include "code\_global_vars\mobs.dm"
-#include "code\_global_vars\sensitive.dm"
 #include "code\_global_vars\lists\economy_department.dm"
 #include "code\_global_vars\lists\mapping.dm"
 #include "code\_global_vars\lists\misc.dm"
